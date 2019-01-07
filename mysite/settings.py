@@ -119,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Базовый путь к медиафайлам
+MEDIA_URL = '/media/'
+# И их локальное хранилище
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
